@@ -16,20 +16,21 @@ db.movies.find(
 
 * **Hint:** Your pipeline should include 2 stages: **$match** and **$project**
 
-2. Once you've converted the MQL query into an aggregation pipeline, add a final stage that **groups** the documents by genres
+2. Once you've converted the MQL query into an aggregation pipeline, add a final stage that **groups** the documents by genres.
 
 * **Hint:** Visit the [$group docs](https://docs.mongodb.com/manual/reference/operator/aggregation/group/#mongodb-pipeline-pipe.-group) to learn more about syntax 
 * **Hint:** The final result should be an array of 20 objects
 
 ### Remember:
 
-* Test out your pipeline using the movies collection in the sample_mflix database in the cluster that you set up in MongoDB Atlas
-* Once you are finished, you can compare your solution at each stage of the activity to [the solution file](./Solved)
+* Test out your pipeline using the movies collection in the sample_mflix database in the cluster that you set up in MongoDB Atlas.
+* Once you are finished, you can compare your solution at each stage of the activity to solutions in [the 'Solved' directory](./Solved).
 
 ### Optional Extension:
 
-* Change the $group stage to $sort 
-* Use $sort to sort the movie documents by rating in descending order
+1. Change the **$group** stage to the **$sort** stage.
+
+2. Use the **$sort** stage to sort the movie documents by rating in **descending** order.
 
 ## Resources
 
