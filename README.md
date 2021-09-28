@@ -14,7 +14,7 @@ db.movies.find(
 
 1. Help Noa by converting their MQL query into an aggregation pipeline.
 
-* **Hint:** Your pipeline should include 2 stages: $match and $project
+* **Hint:** Your pipeline should include 2 stages: **$match** and **$project**
 
 2. Once you've converted the MQL query into an aggregation pipeline, add a final stage that **groups** the documents by genres
 
