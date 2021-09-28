@@ -1,0 +1,4 @@
+db.movies.aggregate([
+    {$match: {"imdb.rating": { $gt: 8}, "year": { $gt: 2000}}},
+    {$project: {"title": 1, "year": 1, "imdb.rating": 1, "genres": 1, "_id": 0}}
+])
