@@ -19,7 +19,7 @@ db.movies.find(
 2. Once you've converted the MQL query into an aggregation pipeline, add a final stage that **groups** the documents by genres.
 
 * **Hint:** Visit the [$group docs](https://docs.mongodb.com/manual/reference/operator/aggregation/group/#mongodb-pipeline-pipe.-group) to learn more about syntax 
-* **Hint:** The final result should be an array of 20 objects
+
 
 ### Remember:
 
